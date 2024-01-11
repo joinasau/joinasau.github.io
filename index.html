@@ -12,241 +12,117 @@
 
         body {
 
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
 
-            margin: 0;
-
-            padding: 0;
-
-            background-color: #f9f9f9;
+            background-color: #f2e9ff; /* Tons de roxo */
 
             color: #333;
 
-        }
-
-
-
-        header {
-
-            background-color: #4CAF50;
-
-            color: #fff;
-
-            text-align: center;
-
-            padding: 1em 0;
-
-        }
-
-
-
-        h1 {
-
             margin: 0;
-
-        }
-
-
-
-        section {
-
-            max-width: 800px;
-
-            margin: 20px auto;
-
-            padding: 20px;
-
-            background-color: #fff;
-
-            border-radius: 8px;
-
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-
-        }
-
-
-
-        h2 {
-
-            color: #4CAF50;
-
-        }
-
-
-
-        p {
-
-            line-height: 1.6;
-
-        }
-
-
-
-        a {
-
-            text-decoration: none;
-
-            color: #4CAF50;
-
-            font-weight: bold;
-
-        }
-
-
-
-        a:hover {
-
-            text-decoration: underline;
-
-        }
-
-
-
-        ul {
-
-            list-style-type: none;
 
             padding: 0;
 
-        }
+            display: flex;
 
+            justify-content: center;
 
+            align-items: center;
 
-        li {
-
-            margin-bottom: 10px;
-
-        }
-
-
-
-        table {
-
-            width: 100%;
-
-            border-collapse: collapse;
-
-            margin-top: 20px;
+            height: 100vh;
 
         }
 
 
 
-        th, td {
+        #container {
 
-            padding: 10px;
+            background-color: #fff;
 
-            text-align: left;
+            border-radius: 10px;
 
-            border-bottom: 1px solid #ddd;
-
-        }
-
-
-
-        footer {
+            padding: 20px;
 
             text-align: center;
 
-            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
-            background-color: #4CAF50;
+        }
+
+
+
+        .product {
+
+            margin-bottom: 20px;
+
+        }
+
+
+
+        .buy-button {
+
+            background-color: #6a5acd; /* Roxo mais escuro */
 
             color: #fff;
+
+            padding: 10px 20px;
+
+            border: none;
+
+            border-radius: 5px;
+
+            cursor: pointer;
 
         }
 
     </style>
 
-    <title>Jonys - Programador</title>
+    <title>JONYS - Loja de Eletrônicos</title>
 
 </head>
 
 <body>
 
+    <div id="container">
 
-
-    <header>
-
-        <h1>Jonys - Programador</h1>
-
-    </header>
+        <h1>JONYS - Loja de Eletrônicos</h1>
 
 
 
-    <section id="about">
+        <div class="product">
 
-        <h2>Sobre Mim</h2>
+            <img src="https://images-americanas.b2w.io/produtos/01/00/img/1865734/0/1865734054_1GG.jpg" alt="Fone Xiaomi">
 
-        <p>Olá! Eu sou Jonys, um programador apaixonado por tecnologia e inovação. Este é o meu espaço online onde compartilho meu conhecimento e experiência.</p>
+            <p>Fone Xiaomi - R$40,00</p>
 
-    </section>
+            <button class="buy-button" onclick="window.location.href='https://instagram.com/jon.y.s'">Comprar</button>
 
-
-
-    <section id="skills">
-
-        <h2>Habilidades</h2>
-
-        <ul>
-
-            <li>Programação:</li>
-
-            <ul>
-
-                <li>Java (Curso)</li>
-
-                <li>Node.js</li>
-
-                <li>PHP</li>
-
-                <li>Python</li>
-
-            </ul>
-
-            <li>Edição de Vídeo (Curso)</li>
-
-        </ul>
-
-    </section>
+        </div>
 
 
 
-    <section id="social">
+        <div class="product">
 
-        <h2>Redes Sociais</h2>
+            <img src="link_da_imagem_espacial" alt="Fone Espacial">
 
-        <p>Para comprar meus produtos, entre em contato através do <a href="https://www.instagram.com/jon.y.s" target="_blank">Instagram</a>.</p>
+            <p>Fone Espacial - R$60,00 (ESGOTADO)</p>
 
-    </section>
+            <button class="buy-button" onclick="window.location.href='https://instagram.com/jon.y.s'">Comprar</button>
 
-
-
-    <section id="products">
-
-        <h2>Produtos</h2>
-
-        <ul>
-
-            <li>Curso Programação - R$50,00</li>
-
-            <li>Curso Marketing - R$75,00</li>
-
-            <li>Venda De Seguidores - R$120,00</li>
-
-        </ul>
-
-    </section>
+        </div>
 
 
 
-    <footer>
+        <div class="product">
 
-        <p>&copy; 2024 Jonys - Todos os direitos reservados.</p>
+            <img src="link_da_imagem_legendario" alt="Fone Legendário">
 
-    </footer>
+            <p>Fone Legendário - R$70,00 (ESGOTADO)</p>
 
+            <button class="buy-button" onclick="window.location.href='https://instagram.com/jon.y.s'">Comprar</button>
 
+        </div>
+
+    </div>
 
 </body>
 
