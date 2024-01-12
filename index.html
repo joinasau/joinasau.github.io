@@ -1,130 +1,106 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <style>
-
         body {
-
-            font-family: Arial, sans-serif;
-
-            background-color: #f2e9ff; /* Tons de roxo */
-
-            color: #333;
-
+            font-family: 'Arial', sans-serif;
             margin: 0;
-
             padding: 0;
-
-            display: flex;
-
-            justify-content: center;
-
-            align-items: center;
-
-            height: 100vh;
-
+            background-color: #f9f9f9;
+            color: #333;
         }
 
-
-
-        #container {
-
-            background-color: #fff;
-
-            border-radius: 10px;
-
-            padding: 20px;
-
-            text-align: center;
-
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-        }
-
-
-
-        .product {
-
-            margin-bottom: 20px;
-
-        }
-
-
-
-        .buy-button {
-
-            background-color: #6a5acd; /* Roxo mais escuro */
-
+        header {
+            background-color: #4CAF50;
             color: #fff;
-
-            padding: 10px 20px;
-
-            border: none;
-
-            border-radius: 5px;
-
-            cursor: pointer;
-
+            text-align: center;
+            padding: 1em 0;
         }
 
+        h1 {
+            margin: 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+        }
     </style>
-
-    <title>JONYS - Loja de Eletrônicos</title>
-
+    <title>Jonys - Programador</title>
 </head>
-
 <body>
 
-    <div id="container">
+    <header>
+        <h1>Jonys - Programador</h1>
+    </header>
 
-        <h1>JONYS - Loja de Eletrônicos</h1>
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Eu sou Jonys, um programador apaixonado por tecnologia e inovação. Este é o meu espaço online onde compartilho meu conhecimento e experiência.</p>
+    </section>
 
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Programação:</li>
+            <ul>
+                <li>Java (Curso)</li>
+                <li>Node.js</li>
+                <li>PHP</li>
+                <li>Python</li>
+            </ul>
+            <li>Edição de Vídeo (Curso)</li>
+        </ul>
+    </section>
 
+    <section id="social">
+        <h2>Redes Sociais</h2>
+        <a href="https://www.instagram.com/jon.y.s" target="_blank">Instagram</a>
+    </section>
 
-        <div class="product">
-
-            <img src="https://images-americanas.b2w.io/produtos/01/00/img/1865734/0/1865734054_1GG.jpg" alt="Fone Xiaomi">
-
-            <p>Fone Xiaomi - R$40,00</p>
-
-            <button class="buy-button" onclick="window.location.href='https://instagram.com/jon.y.s'">Comprar</button>
-
-        </div>
-
-
-
-        <div class="product">
-
-            <img src="link_da_imagem_espacial" alt="Fone Espacial">
-
-            <p>Fone Espacial - R$60,00 (ESGOTADO)</p>
-
-            <button class="buy-button" onclick="window.location.href='https://instagram.com/jon.y.s'">Comprar</button>
-
-        </div>
-
-
-
-        <div class="product">
-
-            <img src="link_da_imagem_legendario" alt="Fone Legendário">
-
-            <p>Fone Legendário - R$70,00 (ESGOTADO)</p>
-
-            <button class="buy-button" onclick="window.location.href='https://instagram.com/jon.y.s'">Comprar</button>
-
-        </div>
-
-    </div>
+    <footer>
+        <p>&copy; 2024 Jonys - Todos os direitos reservados.</p>
+    </footer>
 
 </body>
-
 </html>
-
